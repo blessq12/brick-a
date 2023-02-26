@@ -6,6 +6,10 @@
     <meta name="robots" content="noindex,nofollow">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Технические работы</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
     <meta name="description" content="Мы работаем над улучшением нашего сайта и совсем скоро он будет доступен.">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <style>
