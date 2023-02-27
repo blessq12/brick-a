@@ -22,4 +22,10 @@ class PageController extends Controller
             'description' => $this->description
         ]);
     }
+    public function shop(){
+        return view('shop',[
+            'title' => $this->title,
+            'description' => $this->description
+        ]);
+    }
 }

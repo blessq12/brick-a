@@ -18,3 +18,4 @@ use Illuminate\Support\Facades\Route;
 // Pages
 Route::get('/', ['as' => 'index','uses'=>'PageController@index']);
 Route::get('/slugs',['as'=>'slug','uses'=>'PageController@slug']);
+Route::get('/shop',['as'=>'shop','uses'=>'PageController@shop']);
