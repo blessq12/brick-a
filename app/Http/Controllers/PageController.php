@@ -28,4 +28,16 @@ class PageController extends Controller
             'description' => $this->description
         ]);
     }
+    public function delivery(){
+        return view('delivery',[
+            'title' => $this->title,
+            'description' => $this->description
+        ]);
+    }
+    public function panel(){
+        return view('3d-panel',[
+            'title' => $this->title,
+            'description' => $this->description
+        ]);
+    }
 }

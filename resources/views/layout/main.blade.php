@@ -26,6 +26,7 @@
 <body>
     <div class="se-pre-con"></div>
     {{-- Content section --}}
+    @include('layout/nav')
     @yield('main_content')
     {{-- Content section --}}
     <script src="/assets/js/jquery-1.12.4.min.js"></script>

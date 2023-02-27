@@ -1,5 +1,4 @@
 @extends('layout/main')
-
 @section('main_content')
-<h1>Index page</h1>
-@endsection
+    <h1>3D-panel page</h1>
+@endsection 
