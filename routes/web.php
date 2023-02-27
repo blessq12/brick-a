@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
 // Pages
 Route::get('/', ['as' => 'index','uses'=>'PageController@index']);
+Route::get('/slugs',['as'=>'slug','uses'=>'PageController@slug']);
