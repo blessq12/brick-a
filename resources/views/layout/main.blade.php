@@ -20,14 +20,15 @@
     <link href="/assets/css/owl.theme.default.min.css" rel="stylesheet" />
     <link href="/assets/css/animate.css" rel="stylesheet" />
     <link href="/assets/css/bootsnav.css" rel="stylesheet" />
-    <link href="style.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
     <link href="/assets/css/responsive.css" rel="stylesheet" />
 </head>
 <body>
     <div class="se-pre-con"></div>
     {{-- Content section --}}
-    @include('layout/nav')
+    @include('layout.nav')
     @yield('main_content')
+    @include('layout.footer')
     {{-- Content section --}}
     <script src="/assets/js/jquery-1.12.4.min.js"></script>
     <script src="/assets/js/popper.min.js"></script>

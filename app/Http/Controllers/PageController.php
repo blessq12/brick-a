@@ -6,7 +6,9 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
-    public function __construct(){
+
+    public function __construct(Request $request){
+        $this->requestUri = $request->path();
         $this->title = 'Заголовок страницы';
         $this->description = 'Описание для станицы';
     }
