@@ -9,10 +9,11 @@
             </div>
             <div class="collapse navbar-collapse" id="navbar-menu">
                 <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                    
+                    @foreach ($navigation as $item)
                     <li>
-                        <a href="/slug">About</a>
-                    </li>
+                        <a href="/{{ $item->url }}">{{ $item->name }}</a>
+                    </li>    
+                    @endforeach
                 </ul>
             </div>
         </div>
