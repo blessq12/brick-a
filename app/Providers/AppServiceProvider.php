@@ -21,7 +21,24 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        $navigation = Navigation::all();
+        $navigation = [
+            [
+                'url' => 'slug',
+                'name' => 'Услуги'
+            ],[
+                'url' => 'shop',
+                'name' => 'Каталог'
+            ],[
+                'url' => '3d-panel',
+                'name' => '3D-панели'
+            ],[
+                'url' => 'delivery',
+                'name' => 'Доставка'
+            ],[
+                'url' => 'contact',
+                'name' => 'Контакты'
+            ],
+        ];
         View::share('navigation',$navigation);
     }
 }

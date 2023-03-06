@@ -11,7 +11,7 @@
                 <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
                     @foreach ($navigation as $item)
                     <li>
-                        <a href="/{{ $item->url }}">{{ $item->name }}</a>
+                        <a href="/{{ $item['url'] }}">{{ $item['name'] }}</a>
                     </li>    
                     @endforeach
                 </ul>
